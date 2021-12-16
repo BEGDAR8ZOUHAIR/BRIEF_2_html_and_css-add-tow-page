@@ -1,0 +1,138 @@
+
+.contant{
+    margin-bottom: 50px;
+}
+
+/* .footer{
+    bottom: -62rem;
+} */
+
+.about{
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+    
+    background-image: url("image/nicecompact.jpg");
+    background-attachment: fixed;
+  /* width: 100vw; */
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+   }
+.content_header{
+    padding: 150px 0;
+}
+.about h1{
+    font-size: 60px;
+}
+.about p{
+    margin-top: 30px;
+    font-size: 21px;
+}
+.section-two{
+    margin-top: 80px;
+}
+.text-centre{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.text-centre{
+    font-size: 21px;
+    margin-left: 100px;
+    padding: 100px 0;
+}
+.aboutimage{
+    padding: 30px 62px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sizeimage{
+    width:200px;
+    /* height:50px  ; */
+}
+.content_book{
+    display: flex;
+    justify-content: center;
+    /* padding: 0 auto; */
+}
+.content_book .btn_book{
+    padding: 20px 30px;
+    border: 1px sloid #202020;
+    background-color: #202020;
+    border-radius: 10px;
+    border: 1px solid #202020;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+.content_book .btn_expore{
+    padding: 20px 30px;   
+    border: 1px sloid #202020;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #202020;
+    color: #000;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+.newfooter {
+    display: flex;
+    justify-content: space-around;
+}
+.alinefooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 800px) 
+{
+    .text-centre{
+        font-size: 15px;
+        margin-left: 50px;
+        padding-right: 100px 0;
+    }
+    .content_header{
+        /* padding: 150px 0; */
+    }
+    .about h1{
+        font-size: 30px;
+    }
+    .about p{
+        /* margin-top: 30px; */
+        font-size: 16px;
+    }
+    .section-two{
+        /* margin-top: 80px; */
+    }
+    .text-centre{
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+    }
+    .text-centre{
+        font-size: 16px;
+        /* margin-left: 100px; */
+        /* padding: 100px 0; */
+    }
+    .aboutimage{
+        padding: 30px 62px;
+        display: flex ;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        gap: 1em;
+    }
+    .sizeimage{
+        width: 100px;
+    }
+    .about{
+        color: white;
+        text-align: left;
+        padding-left: 50px;
+    }
+        
+
+ 
+}
